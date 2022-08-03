@@ -1,11 +1,11 @@
-const amount = 9
+//Modules
 
-if (amount < 10) {
-    console.log('small number');
+const names = require('./4-names')
+const sayHi = require('./5-utils')
+const data = require('./6-alternative-flavor')
 
-} else {
-    console.log('Large number');
-}
-
-
-console.log('Hey this is the Node Testing app');
+console.log(data)
+require('./7-mind-grenade')
+// sayHi('susan')
+// sayHi(names.john)
+// sayHi(names.peter)
